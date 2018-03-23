@@ -7,8 +7,7 @@ This repository contains the code (in PyTorch) for "Pyramid Stereo Matching Netw
 1. [Introduction](#introduction)
 2. [Usage](#usage)
 3. [Results](#results)
-4. [Discussions](#discussions)
-5. [Contacts](#contacts)
+4. [Contacts](#contacts)
 
 ## Introduction
 
@@ -87,7 +86,7 @@ python submission.py --maxdisp 192 \
 <img align="center" src="http://www.cvlibs.net/datasets/kitti/results/efb9db97938e12a20b9c95ce593f633dd63a2744/errors_disp_img_0/000004_10.png">
 
 
-## Contact
+## Contacts
 followwar@gmail.com
 
 We are working on the implementation on caffe.
