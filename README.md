@@ -2,6 +2,11 @@
 
 This repository contains the code (in PyTorch) for "Pyramid Stereo Matching Network" paper (CVPR 2018) by [Jia-Ren Chang](https://jiarenchang.github.io/) and [Yong-Sheng Chen](https://people.cs.nctu.edu.tw/~yschen/).
 
+### Citation
+ˋˋˋ
+arxiv preprint version is uploading
+ˋˋˋ
+
 ## Contents
 
 1. [Introduction](#introduction)
