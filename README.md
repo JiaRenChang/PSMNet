@@ -43,9 +43,21 @@ As another example, use the following command to finetune a PSMNet on KITTI 2015
 python finetune.py --maxdisp 192 \
                    --model stackhourglass \
                    --datatype 2015 \
-                   --datapath (KITTI 2015 data folder) \
+                   --datapath (KITTI 2015 training data folder) \
                    --epochs 300 \
                    --loadmodel (pretrained PSMNet) \
                    --savemodel (path for saving model)
 ```
 You can alse see those example in run.sh
+
+### Evaluation
+Use the following command to evaluate the trained PSMNet on KITTI 2015 test data
+
+```
+python submission.py --maxdisp 192 \
+                   --model stackhourglass \
+                   --datatype 2015 \
+                   --datapath (KITTI 2015 test data folder) \
+                   --loadmodel (finetuned PSMNet) \
+```
+
