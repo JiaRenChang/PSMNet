@@ -43,7 +43,7 @@ torch.manual_seed(args.seed)
 if args.cuda:
     torch.cuda.manual_seed(args.seed)
 
-if args.KITTI == 2015:
+if args.KITTI == '2015':
    from dataloader import KITTI_submission_loader as DA
 else:
    from dataloader import KITTI_submission_loader2012 as DA  
