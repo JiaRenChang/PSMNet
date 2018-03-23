@@ -60,7 +60,7 @@ Use the following command to evaluate the trained PSMNet on KITTI 2015 test data
 ```
 python submission.py --maxdisp 192 \
                      --model stackhourglass \
-                     --datatype 2015 \
+                     --KITTI 2015 \
                      --datapath (KITTI 2015 test data folder) \
                      --loadmodel (finetuned PSMNet) \
 ```
