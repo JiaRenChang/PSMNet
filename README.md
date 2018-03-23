@@ -70,5 +70,6 @@ python submission.py --maxdisp 192 \
 [Leaderbord Link](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
 
 | Method | D1-all (All) | D1-all (Noc)| Runtime (s) |
+|---|---|---|---|
 | PSMNet | 2.32 % | 2.14 % | 0.41 |
 
