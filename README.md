@@ -37,7 +37,7 @@ python main.py --maxdisp 192 \
                --model stackhourglass \
                --datapath (your scene flow data folder)\
                --epochs 10 \
-               --loadmodel  \
+               --loadmodel  (optional)\
                --savemodel (path for saving model)
 ```
 
