@@ -72,4 +72,10 @@ python submission.py --maxdisp 192 \
 | Method | D1-all (All) | D1-all (Noc)| Runtime (s) |
 |---|---|---|---|
 | PSMNet | 2.32 % | 2.14 % | 0.41 |
+| [iResNet-i2](https://arxiv.org/abs/1712.01039) | 2.44 % | 2.19 % | 0.12 |
+| [GC-Net](https://arxiv.org/abs/1703.04309) | 2.87 % | 2.61 % | 0.90 |
+| [MC-CNN](https://github.com/jzbontar/mc-cnn) | 3.89 % | 3.33 % | 67 |
+
+### Qualitative results
+#### Left image
 
