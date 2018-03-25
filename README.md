@@ -90,6 +90,12 @@ python submission.py --maxdisp 192 \
 #### Error
 <img align="center" src="http://www.cvlibs.net/datasets/kitti/results/efb9db97938e12a20b9c95ce593f633dd63a2744/errors_disp_img_0/000004_10.png">
 
+### Visualization of Receptive Field
+We visualize the receptive fields of different settings of PSMNet, full setting and baseline.
+The receptive fields were calculated for the pixel at image center, indicated by the red cross.
+<img align="center" src="https://user-images.githubusercontent.com/11732099/37876179-6d6dd97e-307b-11e8-803e-bcdbec29fb94.png">
+Full setting: dilated conv, SPP, stacked hourglass
+Baseline: no dilated conv, no SPP, no stacked hourglass
 
 ## Contacts
 followwar@gmail.com
