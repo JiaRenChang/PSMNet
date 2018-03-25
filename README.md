@@ -92,12 +92,16 @@ python submission.py --maxdisp 192 \
 
 ### Visualization of Receptive Field
 We visualize the receptive fields of different settings of PSMNet, full setting and baseline.
+
+Full setting: dilated conv, SPP, stacked hourglass
+
+Baseline: no dilated conv, no SPP, no stacked hourglass
+
 The receptive fields were calculated for the pixel at image center, indicated by the red cross.
 
 <img align="center" src="https://user-images.githubusercontent.com/11732099/37876179-6d6dd97e-307b-11e8-803e-bcdbec29fb94.png">
 
-Full setting: dilated conv, SPP, stacked hourglass
-Baseline: no dilated conv, no SPP, no stacked hourglass
+
 
 ## Contacts
 followwar@gmail.com
