@@ -65,6 +65,12 @@ python submission.py --maxdisp 192 \
                      --loadmodel (finetuned PSMNet) \
 ```
 
+### Pretrained Model
+| KITTI 2015 |
+|---|
+|[Google Drive](https://drive.google.com/file/d/1pHWjmhKMG4ffCrpcsp_MTXMJXhgl3kF9/view?usp=sharing)|
+
+
 ## Results
 
 ### Evalutation of PSMNet with different settings
