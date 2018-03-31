@@ -4,7 +4,12 @@ This repository contains the code (in PyTorch) for "[Pyramid Stereo Matching Net
 
 ### Citation
 ```
-
+@article{chang2018pyramid,
+  title={Pyramid Stereo Matching Network},
+  author={Chang, Jia-Ren and Chen, Yong-Sheng},
+  journal={arXiv preprint arXiv:1803.08669},
+  year={2018}
+}
 ```
 
 ## Contents
