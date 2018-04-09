@@ -81,8 +81,8 @@ python submission.py --maxdisp 192 \
 ### Evalutation of PSMNet with different settings
 <img align="center" src="https://user-images.githubusercontent.com/11732099/37817886-45a12ece-2eb3-11e8-8254-ae92c723b2f6.png">
 
-### Results on KITTI 2015 leaderbord
-[Leaderbord Link](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
+### Results on KITTI 2015 leaderboard
+[Leaderboard Link](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
 
 | Method | D1-all (All) | D1-all (Noc)| Runtime (s) |
 |---|---|---|---|
