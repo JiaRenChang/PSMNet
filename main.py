@@ -37,6 +37,9 @@ parser.add_argument('--seed', type=int, default=1, metavar='S',
 args = parser.parse_args()
 args.cuda = not args.no_cuda and torch.cuda.is_available()
 
+# set gpu id used
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
+
 torch.manual_seed(args.seed)
 if args.cuda:
     torch.cuda.manual_seed(args.seed)
