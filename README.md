@@ -80,6 +80,7 @@ python submission.py --maxdisp 192 \
 ```
 
 ### Pretrained Model
+※NOTE: The pretrained model were saved in .tar; however, you don't need to untar it. Use torch.load() to load it.
 | KITTI 2015 |  Scene Flow |
 |---|---|
 |[Google Drive](https://drive.google.com/file/d/1pHWjmhKMG4ffCrpcsp_MTXMJXhgl3kF9/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1xoqkQ2NXik1TML_FMUTNZJFAHrhLdKZG/view?usp=sharing)|
