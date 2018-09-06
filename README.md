@@ -31,7 +31,7 @@ Recent work has shown that depth estimation from a stereo pair of images can be 
 ### Dependencies
 
 - [Python2.7](https://www.python.org/downloads/)
-- [PyTorch(0.3.0+)](http://pytorch.org)
+- [PyTorch(0.4.0+)](http://pytorch.org)
 - torchvision 0.2.0 (higher version may cause issues)
 - [KITTI Stereo](http://www.cvlibs.net/datasets/kitti/eval_stereo.php)
 - [Scene Flow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)
