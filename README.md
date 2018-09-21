@@ -94,6 +94,8 @@ Update: 2018/9/6 We released the pre-trained KITTI 2012 model.
 ### Evalutation of PSMNet with different settings
 <img align="center" src="https://user-images.githubusercontent.com/11732099/37817886-45a12ece-2eb3-11e8-8254-ae92c723b2f6.png">
 
+※Note that the reported 3-px validation errors were calculated using KITTI's offical matlab code, not our code. 
+
 ### Results on KITTI 2015 leaderboard
 [Leaderboard Link](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
 
