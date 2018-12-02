@@ -132,5 +132,4 @@ The receptive fields were calculated for the pixel at image center, indicated by
 ## Contacts
 followwar@gmail.com
 
-We are working on the implementation on caffe.
 Any discussions or concerns are welcomed!
