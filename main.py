@@ -22,7 +22,7 @@ parser.add_argument('--maxdisp', type=int ,default=192,
                     help='maxium disparity')
 parser.add_argument('--model', default='stackhourglass',
                     help='select model')
-parser.add_argument('--datapath', default='/media/jiaren/ImageNet/SceneFlowData/',
+parser.add_argument('--datapath', default='dataset/',
                     help='datapath')
 parser.add_argument('--epochs', type=int, default=10,
                     help='number of epochs to train')
@@ -36,6 +36,9 @@ parser.add_argument('--seed', type=int, default=1, metavar='S',
                     help='random seed (default: 1)')
 args = parser.parse_args()
 args.cuda = not args.no_cuda and torch.cuda.is_available()
+
+# set gpu id used
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
 
 torch.manual_seed(args.seed)
 if args.cuda:

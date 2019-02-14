@@ -2,7 +2,7 @@
 
 python main.py --maxdisp 192 \
                --model stackhourglass \
-               --datapath /media/jiaren/ImageNet/SceneFlowData/ \
+               --datapath dataset/ \
                --epochs 0 \
                --loadmodel ./trained/checkpoint_10.tar \
                --savemodel ./trained/
@@ -12,7 +12,7 @@ python main.py --maxdisp 192 \
 python finetune.py --maxdisp 192 \
                    --model stackhourglass \
                    --datatype 2015 \
-                   --datapath /media/jiaren/ImageNet/data_scene_flow_2015/training/ \
+                   --datapath dataset/data_scene_flow_2015/training/ \
                    --epochs 300 \
                    --loadmodel ./trained/checkpoint_10.tar \
                    --savemodel ./trained/
