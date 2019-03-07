@@ -149,6 +149,9 @@ class PSMNet(nn.Module):
         cost3 = F.upsample(cost3, [self.maxdisp,left.size()[2],left.size()[3]], mode='trilinear')
         cost3 = torch.squeeze(cost3,1)
         pred3 = F.softmax(cost3,dim=1)
+	#For your information: This formulation 'softmax(c)' learned "similarity" 
+	#while 'softmax(-c)' learned 'matching cost' as mentioned in the paper.
+	#However, 'c' or '-c' do not affect the performance because feature-based cost volume provided flexibility.
         pred3 = disparityregression(self.maxdisp)(pred3)
 
         if self.training:
