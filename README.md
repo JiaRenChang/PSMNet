@@ -46,6 +46,7 @@ And rename the folder as: "driving_frames_cleanpass", "driving_disparity", "monk
 1. Warning of upsample function in PyTorch 0.4.1+: add "align_corners=True" to upsample functions.
 2. Output disparity may be better with multipling by 1.17. Reported from issues [#135](https://github.com/JiaRenChang/PSMNet/issues/135) and [#113](https://github.com/JiaRenChang/PSMNet/issues/113).
 3. with torchvision > 0.2.0, RGB images should be loaded without adding ".astype('float32'))"
+4. For the Kitti-Dataset the Images need to be scaled to 1006x303 to be used as an input when using the pretrained net
 
 ### Train
 As an example, use the following command to train a PSMNet on Scene Flow
