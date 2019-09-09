@@ -94,7 +94,7 @@ Update: 2018/9/6 We released the pre-trained KITTI 2012 model.
 
 ### Test on your own stereo pair
 ```
-python Test_img.py --leftimg ./left.png --rightimg ./right.png --isgray False
+python Test_img.py --loadmodel (finetuned PSMNet) --leftimg ./left.png --rightimg ./right.png --isgray False
 ```
 
 ## Results
