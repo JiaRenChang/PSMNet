@@ -3,6 +3,8 @@
 This repository contains the code (in PyTorch) for "[Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669)" paper (CVPR 2018) by [Jia-Ren Chang](https://jiarenchang.github.io/) and [Yong-Sheng Chen](https://people.cs.nctu.edu.tw/~yschen/).
 
 ## ※We are working on moving these codes to Python 3.7 and torch 1.4.
+#### changlog
+2020/04/16 Update Test_img.py: now support torch 1.4/torchvision 0.50 and python 3.7 for inference
 
 ### Citation
 ```
@@ -96,7 +98,7 @@ Update: 2018/9/6 We released the pre-trained KITTI 2012 model.
 
 ### Test on your own stereo pair
 ```
-python Test_img.py --loadmodel (finetuned PSMNet) --leftimg ./left.png --rightimg ./right.png --isgray False
+python Test_img.py --loadmodel (finetuned PSMNet) --leftimg ./left.png --rightimg ./right.png
 ```
 
 ## Results
