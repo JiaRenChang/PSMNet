@@ -6,7 +6,7 @@ This repository contains the code (in PyTorch) for "[Pyramid Stereo Matching Net
 #### changlog
 2020/04/16: Update Test_img.py: now support torch 1.4 / torchvision 0.5.0 and python 3.7 for inference
 
-2020/04/16: Update submission.py: now support torch 1.4 / torchvision 0.5.0 and python 3.7 for inference
+2020/04/16: Update submission.py, SecenFlowLoader.py, readpfm.py, main.py
 
 ### Citation
 ```
@@ -36,9 +36,9 @@ Recent work has shown that depth estimation from a stereo pair of images can be 
 
 ### Dependencies
 
-- [Python2.7](https://www.python.org/downloads/)
-- [PyTorch(0.4.0+)](http://pytorch.org)
-- torchvision 0.2.0 (higher version may cause issues)
+- [Python 3.7](https://www.python.org/downloads/)
+- [PyTorch(1.4.0+)](http://pytorch.org)
+- torchvision 0.5.0
 - [KITTI Stereo](http://www.cvlibs.net/datasets/kitti/eval_stereo.php)
 - [Scene Flow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)
 
@@ -51,7 +51,6 @@ And rename the folder as: "driving_frames_cleanpass", "driving_disparity", "monk
 ### Notice
 1. Warning of upsample function in PyTorch 0.4.1+: add "align_corners=True" to upsample functions.
 2. Output disparity may be better with multipling by 1.17. Reported from issues [#135](https://github.com/JiaRenChang/PSMNet/issues/135) and [#113](https://github.com/JiaRenChang/PSMNet/issues/113).
-3. with torchvision > 0.2.0, RGB images should be loaded without adding ".astype('float32'))"
 
 ### Train
 As an example, use the following command to train a PSMNet on Scene Flow
