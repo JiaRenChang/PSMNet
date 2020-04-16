@@ -5,6 +5,7 @@ This repository contains the code (in PyTorch) for "[Pyramid Stereo Matching Net
 ## ※We are working on moving these codes to Python 3.7 and torch 1.4.
 #### changlog
 2020/04/16: Update Test_img.py: now support torch 1.4 / torchvision 0.5.0 and python 3.7 for inference
+2020/04/16: Update submission.py: now support torch 1.4 / torchvision 0.5.0 and python 3.7 for inference
 
 ### Citation
 ```
