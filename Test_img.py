@@ -109,8 +109,12 @@ def main():
         print('time = %.2f' %(time.time() - start_time))
 
         
-        if top_pad !=0 or right_pad != 0:
+        if top_pad !=0 and right_pad != 0:
             img = pred_disp[top_pad:,:-right_pad]
+        elif top_pad ==0 and right_pad != 0:
+            img = pred_disp[:,:-right_pad]
+        elif top_pad !=0 and right_pad == 0:
+            img = pred_disp[top_pad:,:]
         else:
             img = pred_disp
         

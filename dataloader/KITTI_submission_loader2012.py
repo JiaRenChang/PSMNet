@@ -16,14 +16,14 @@ def is_image_file(filename):
 
 def dataloader(filepath):
 
-  left_fold  = 'colored_0/'
-  right_fold = 'colored_1/'
+    left_fold  = 'colored_0/'
+    right_fold = 'colored_1/'
 
 
-  image = [img for img in os.listdir(filepath+left_fold) if img.find('_10') > -1]
+    image = [img for img in os.listdir(filepath+left_fold) if img.find('_10') > -1]
 
 
-  left_test  = [filepath+left_fold+img for img in image]
-  right_test = [filepath+right_fold+img for img in image]
+    left_test  = [filepath+left_fold+img for img in image]
+    right_test = [filepath+right_fold+img for img in image]
 
-  return left_test, right_test
+    return left_test, right_test
