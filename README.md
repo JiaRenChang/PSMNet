@@ -2,7 +2,7 @@
 
 This repository contains the code (in PyTorch) for "[Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669)" paper (CVPR 2018) by [Jia-Ren Chang](https://jiarenchang.github.io/) and [Yong-Sheng Chen](https://people.cs.nctu.edu.tw/~yschen/).
 
-## ※We are working on moving these codes to python 3.7 and torch 1.4.
+## ※We are working on moving these codes to python 3.7 and lastest PyTorch
 #### changelog
 2020/04/16: Update Test_img.py: now support torch 1.4 / torchvision 0.5.0 and python 3.7 for inference
 
