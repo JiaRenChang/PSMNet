@@ -4,7 +4,7 @@ This repository contains the code (in PyTorch) for "[Pyramid Stereo Matching Net
 
 #### changelog
 2020/12/20: Update PSMNet: now support torch 1.6.0 / torchvision 0.5.0 and python 3.7, Removed inconsistent indentation.
-
+2020/12/20: Our proposed Real-Time Stereo can be found here [Real-time Stereo] (https://github.com/JiaRenChang/RealtimeStereo).
 ### Citation
 ```
 @inproceedings{chang2018pyramid,
