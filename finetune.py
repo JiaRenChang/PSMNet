@@ -16,6 +16,7 @@ import skimage.transform
 import numpy as np
 import time
 import math
+import copy
 from dataloader import KITTIloader2015 as ls
 from dataloader import KITTILoader as DA
 
@@ -125,7 +126,7 @@ def test(imgL,imgR,disp_true):
         pred_disp = output3.data.cpu()
 
         #computing 3-px error#
-        true_disp = disp_true
+        true_disp = copy.deepcopy(disp_true)
         index = np.argwhere(true_disp>0)
         disp_true[index[0][:], index[1][:], index[2][:]] = np.abs(true_disp[index[0][:], index[1][:], index[2][:]]-pred_disp[index[0][:], index[1][:], index[2][:]])
         correct = (disp_true[index[0][:], index[1][:], index[2][:]] < 3)|(disp_true[index[0][:], index[1][:], index[2][:]] < true_disp[index[0][:], index[1][:], index[2][:]]*0.05)      
