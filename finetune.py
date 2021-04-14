@@ -111,7 +111,9 @@ def train(imgL,imgR,disp_L):
         loss.backward()
         optimizer.step()
 
-        return loss.data[0]
+        # return loss.data[0]
+	# line above triggers exception in the latest release of torch
+	return loss.item()  
 
 def test(imgL,imgR,disp_true):
         model.eval()
@@ -121,8 +123,9 @@ def test(imgL,imgR,disp_true):
             imgL, imgR = imgL.cuda(), imgR.cuda()
 
         with torch.no_grad():
-            output3 = model(imgL,imgR)
-
+            output3 = model(imgL,imgR)   # N,C,H,W, where C = 1
+	
+	output3.squeeze_()  # N, H, W, IndexError when computing disp_true if without this line.
         pred_disp = output3.data.cpu()
 
         #computing 3-px error#
