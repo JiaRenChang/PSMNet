@@ -90,10 +90,11 @@ python submission.py --maxdisp 192 \
 ※NOTE: The pretrained model were saved in .tar; however, you don't need to untar it. Use torch.load() to load it.
 
 Update: 2018/9/6 We released the pre-trained KITTI 2012 model.
+Update: 2021/9/22 a pretrained model using torch 1.8.1 (the previous model weight are trained torch 0.4.1)
 
-| KITTI 2015 |  Scene Flow | KITTI 2012|
-|---|---|---|
-|[Google Drive](https://drive.google.com/file/d/1pHWjmhKMG4ffCrpcsp_MTXMJXhgl3kF9/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1xoqkQ2NXik1TML_FMUTNZJFAHrhLdKZG/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1p4eJ2xDzvQxaqB20A_MmSP9-KORBX1pZ/view?usp=sharing)|
+| KITTI 2015 |  Scene Flow | KITTI 2012 | Scene Flow (torch 1.8.1)
+|---|---|---|---|
+|[Google Drive](https://drive.google.com/file/d/1pHWjmhKMG4ffCrpcsp_MTXMJXhgl3kF9/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1xoqkQ2NXik1TML_FMUTNZJFAHrhLdKZG/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1p4eJ2xDzvQxaqB20A_MmSP9-KORBX1pZ/view?usp=sharing)| [Google Drive](https://drive.google.com/file/d/1NDKrWHkwgMKtDwynXVU12emK3G5d5kkp/view?usp=sharing)
 
 ### Test on your own stereo pair
 ```
